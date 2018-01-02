@@ -1,0 +1,99 @@
+
+
+body{
+	background-image: url("http://p18.qhimg.com/bdr/__85/t019afbb76ce4037d59.jpg");
+	background-repeat:repeat-y;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.navbar{
+	min-height: 63px;
+}
+.navbar-brand{
+	padding: 3px 15px;
+}
+.navbar-default {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.navbar {
+    border-radius:0px!important;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    margin-top: 7px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #585d64;
+    font-size: 16px;
+}
+.search_box{
+	margin: 0px auto;
+}
+.result{
+	width: 90%;
+	margin: 0px auto;
+	color: #fff;
+}
+#pagination_14{
+	text-align: center;
+}
+.panel-success{
+	border:1px solid #4cae4c;
+	color: gray;
+}
+.color_green{
+	background-color: #4cae4c!important;
+}
+.color_green h3{
+	color:#fff;
+}
+#pagination_14{
+	display: none;
+}
+.color_green a{
+	color: red;
+	float: right;
+	text-decoration:underline;
+}
+.red_title{
+	color:red;
+	font-weight:bold;
+	text-align: center;
+	width: 100%;
+	float: center;
+}
+.pagination > .active > a{
+	background-color: #5cb85c;
+    border-color: #5cb85c;
+}
+.red_text{
+	color:red;
+}
+.footer{
+	position: fixed;
+	bottom:10px;
+	color: #fff;
+	height: 80px;
+	width: 100%;
+	text-align: center;
+}
+.friend_links{
+	color: #fff;
+}
+.friend_links ul li{
+	position: ;
+	list-style: none;
+	display:inline;
+	padding: 5px;
+	text-align：0px;
+}
+.friend_links ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+.description{
+	color: #fff;
+	text-align: center;
+}
+.copyright{
+	display: inline;
+}
