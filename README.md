@@ -1,7 +1,7 @@
 # pansousou
 一款搜索网盘的WEB应用
 
-#说明
+# 说明
 
 1.本前端使用Bootstarp框架编写，尚有许多不足之处等待后续完善！
 
@@ -14,11 +14,11 @@
 
 API:http://pan.dyboy.cn/date/search_api.php?key='.$keyword.'&page='.$page;
 
-作者：DYBOY-小东
-QQ：1099718640
-时间：2018-01-02
-博客：http://blog.csdn.net/dyboy2017
-Github:https://github.com/dyboy2017
+>作者：DYBOY-小东
+>QQ：1099718640
+>时间：2018-01-02
+>博客：http://blog.csdn.net/dyboy2017
+>Github:https://github.com/dyboy2017
 
 本源码将在多个平台开源，希望大家会喜欢，代码写得匆忙，期待大家的建议，共同完善！
 
