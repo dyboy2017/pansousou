@@ -12,16 +12,12 @@
 4.仅供技术学习交流^-^
 
 
-API:http://pan.dyboy.cn/date/search_api.php?key='.$keyword.'&page='.$page;
-
->作者：DYBOY-小东
->QQ：1099718640
->时间：2018-01-02
->博客：http://blog.csdn.net/dyboy2017
->Github:https://github.com/dyboy2017
 
 本源码将在多个平台开源，希望大家会喜欢，代码写得匆忙，期待大家的建议，共同完善！
 ![多终端效果图](http://upload-images.jianshu.io/upload_images/6661013-00d97fe33eecd34d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 预览测试网址：http://pan.dyboy.cn
 
+```
+API:http://pan.dyboy.cn/date/search_api.php?key='.$keyword.'&page='.$page;
+```
