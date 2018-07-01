@@ -1,4 +1,11 @@
  <?php 
+ 
+ /*
+ *	跳转页面
+ *	author: DYBOY
+ *	Blog: https://blog.dyboy.cn
+ */
+ 
 $t_url=$_GET['url'];
 if(!empty($t_url)) {
  preg_match('/(http|https):\/\//',$t_url,$matches);
@@ -23,7 +30,7 @@ if(!empty($t_url)) {
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta http-equiv="refresh" content="1;url='<?php echo $url;?>';">
+<meta http-equiv="refresh" content="1;url='<?php echo htmlspecialchars($url);?>';">
 <title><?php echo $title;?></title>
 <div id="circle"></div>
 <div id="circletext"></div>
@@ -31,7 +38,7 @@ if(!empty($t_url)) {
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta http-equiv="refresh" content="1;url='<?php echo $url;?>';">
+<meta http-equiv="refresh" content="1;url='<?php echo htmlspecialchars($url);?>';">
 <title><?php echo $title;?></title>
 <style>
 <style type="text/css">
@@ -40,6 +47,14 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 </style></head>
 <body>
 <div id="loader-container"><p id="loadingText">页面加载中</p></div>
-<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1264449021'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1264449021' type='text/javascript'%3E%3C/script%3E"));</script></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?86bb2f29d6fe525fd79ffeab396e8603";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
 </body>
 </html>
