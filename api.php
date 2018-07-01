@@ -15,6 +15,7 @@
 		curl_close($ch);
 		return($content);
 	}
+        //下方的链接的域名，改为自己的即可，演示站点即将关闭，接口也停止使用
 	$url = 'http://pan.dyboy.cn/date/search_api.php?key='.$keyword.'&page='.$page;
 
 	$file=curl_get($url);
