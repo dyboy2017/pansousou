@@ -1,4 +1,9 @@
 <?php
+/*
+ *  title:  api.php
+ *	author: DYBOY
+ *	Blog:   https://blog.dyboy.cn
+ */
 	error_reporting(0);
 	header("Content-Type:text/json;charset:utf8");
 	$keyword = isset($_GET['keyword'])?$_GET['keyword']:'';
@@ -15,10 +20,10 @@
 		curl_close($ch);
 		return($content);
 	}
-        //下方的链接的域名，改为自己的即可，演示站点即将关闭，接口也停止使用
+	//将下面的域名改成自己的即可
 	$url = 'http://pan.dyboy.cn/date/search_api.php?key='.$keyword.'&page='.$page;
 
-	$file=curl_get($url);
+	$file = curl_get($url);
 	
 	echo $file;
 
